@@ -170,5 +170,21 @@ public class Program {
 
         Console.WriteLine("La somme des valeurs du tableau est : {0}", sum);
 
+//--------//
+// EXO 12 //
+//--------//
+
+        int[] n = new int[20];
+        for (int l = 0; l < 20; l++) {
+            numbers[l] = l + 1;
+        }
+
+        for (int l = 0; l < 20; l++) {
+            if (numbers[l] % 3 == 0 && numbers[l] % 5 == 0) {
+                Console.WriteLine("Le premier nombre divisible par 3 et 5 est: " + numbers[l]);
+                break;
+            }
+        }
+
     }
 };
