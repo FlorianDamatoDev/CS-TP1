@@ -155,5 +155,20 @@ public class Program {
             i++;
         }
 
+//--------//
+// EXO 11 //
+//--------//
+
+        double[] values = new double[] { 1.5, 2.5, 3.5, 4.5, 5.5 };
+
+        int k = 0;
+        double sum = 0;
+        do {
+            sum += values[k];
+            i++;
+        } while (i < values.Length);
+
+        Console.WriteLine("La somme des valeurs du tableau est : {0}", sum);
+
     }
 };
