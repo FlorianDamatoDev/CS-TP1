@@ -125,5 +125,22 @@ public class Program {
             Console.WriteLine(numbers[i]);
         }
 
+//-------//
+// EXO 9 //
+//-------//
+
+            int[] tabNumbers = new int[10];
+
+            Console.WriteLine("Veuillez entrer 10 nombres :");
+            for (int i = 0; i < 10; i++) {
+                Console.Write("Numéro {0} : ", i + 1);
+                tabNumbers[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("Voici les nombres que vous avez entrés :");
+            foreach (int tabNumber in tabNumbers) {
+                Console.WriteLine(tabNumber);
+            }
+
     }
 };
