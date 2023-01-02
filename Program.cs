@@ -99,7 +99,6 @@ public class Program {
             Console.WriteLine($"{num} x {i} = {num * i}");
         }
 
-        
 //-------//
 // EXO 7 //
 //-------//
@@ -115,6 +114,16 @@ public class Program {
             product = numb1 * numb2;
             Console.WriteLine($"Le produit des deux nombres est : {product}");
         } while (product <= 1000);
+
+//-------//
+// EXO 8 //
+//-------//
+
+        int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+        for (int i = 0; i < numbers.Length; i++) {
+            Console.WriteLine(numbers[i]);
+        }
 
     }
 };
