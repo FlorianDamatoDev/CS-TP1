@@ -132,9 +132,9 @@ public class Program {
         int[] tabNumbers = new int[10];
 
         Console.WriteLine("Veuillez entrer 10 nombres :");
-        for (int i = 0; i < 10; i++) {
-            Console.Write("Numéro {0} : ", i + 1);
-            tabNumbers[i] = int.Parse(Console.ReadLine());
+        for (int m = 0; m < 10; m++) {
+            Console.Write("Numéro {0} : ", m + 1);
+            tabNumbers[m] = int.Parse(Console.ReadLine());
         }
 
         Console.WriteLine("Voici les nombres que vous avez entrés :");
@@ -148,11 +148,11 @@ public class Program {
 
         string[] colors = new string[] { "rouge", "vert", "bleu", "jaune", "orange" };
 
-        int i = 0;
-        while (i < colors.Length)
+        int o = 0;
+        while (o < colors.Length)
         {
-            Console.WriteLine(colors[i]);
-            i++;
+            Console.WriteLine(colors[o]);
+            o++;
         }
 
 //--------//
@@ -165,8 +165,8 @@ public class Program {
         double sum = 0;
         do {
             sum += values[k];
-            i++;
-        } while (i < values.Length);
+            k++;
+        } while (k < values.Length);
 
         Console.WriteLine("La somme des valeurs du tableau est : {0}", sum);
 
