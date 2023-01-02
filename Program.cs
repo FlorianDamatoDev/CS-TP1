@@ -88,5 +88,16 @@ public class Program {
 
         Console.WriteLine("Correct !");
 
+//-------//
+// EXO 6 //
+//-------//
+
+        Console.WriteLine("Entrez un nombre :");
+        int num = int.Parse(Console.ReadLine());
+
+        for (int i = 1; i <= 12; i++) {
+            Console.WriteLine($"{num} x {i} = {num * i}");
+        }
+
     }
 };
