@@ -62,13 +62,31 @@ public class Program {
 // EXO 4 //
 //-------//
 
-            Console.WriteLine("Entrez votre note d'examen (sur 100) :");
-            int noteExam = int.Parse(Console.ReadLine());
+        Console.WriteLine("Entrez votre note d'examen (sur 100) :");
+        int noteExam = int.Parse(Console.ReadLine());
 
-            if (noteExam >= 60) {
-                Console.WriteLine("Pass");
-            } else {
-                Console.WriteLine("Fail");
-            }
+        if (noteExam >= 60) {
+            Console.WriteLine("Pass");
+        } else {
+            Console.WriteLine("Fail");
+        }
+
+//-------//
+// EXO 5 //
+//-------//
+
+        Random random = new Random();
+        int number = random.Next(1, 101); // génère un nombre aléatoire entre 1 et 100
+
+        Console.WriteLine("Devinez le nombre compris entre 1 et 100 :");
+        int res = int.Parse(Console.ReadLine());
+
+        while (res != number) {
+            Console.WriteLine("Incorrect, try again.");
+            res = int.Parse(Console.ReadLine());
+        }
+
+        Console.WriteLine("Correct !");
+
     }
 };
