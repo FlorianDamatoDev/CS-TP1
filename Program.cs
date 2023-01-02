@@ -99,5 +99,22 @@ public class Program {
             Console.WriteLine($"{num} x {i} = {num * i}");
         }
 
+        
+//-------//
+// EXO 7 //
+//-------//
+
+        int product;
+        do {
+            Console.WriteLine("Entrez le premier nombre :");
+            int numb1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entrez le second nombre :");
+            int numb2 = int.Parse(Console.ReadLine());
+
+            product = numb1 * numb2;
+            Console.WriteLine($"Le produit des deux nombres est : {product}");
+        } while (product <= 1000);
+
     }
 };
