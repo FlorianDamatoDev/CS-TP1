@@ -42,5 +42,20 @@ public class Program {
         // Dans ce cas, nous parcourons d'abord toutes les lignes du tableau (boucle externe for)
         // Et pour chaque ligne, nous parcourons toutes les colonnes (boucle interne for)
 
+//-------//
+// EXO 3 //
+//-------//
+
+        Console.Write("Entrez un nombre entier : ");
+        int num1 = int.Parse(Console.ReadLine());
+
+        Console.Write("Entrez un autre nombre entier : ");
+        int num2 = int.Parse(Console.ReadLine());
+
+        if (num1 > num2) {
+            Console.WriteLine("Le plus grand nombre est : " + num1);
+        } else {
+            Console.WriteLine("Le plus grand nombre est : " + num2);
+        }
     }
 };
