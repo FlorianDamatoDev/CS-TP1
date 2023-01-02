@@ -57,5 +57,18 @@ public class Program {
         } else {
             Console.WriteLine("Le plus grand nombre est : " + num2);
         }
+
+//-------//
+// EXO 4 //
+//-------//
+
+            Console.WriteLine("Entrez votre note d'examen (sur 100) :");
+            int noteExam = int.Parse(Console.ReadLine());
+
+            if (noteExam >= 60) {
+                Console.WriteLine("Pass");
+            } else {
+                Console.WriteLine("Fail");
+            }
     }
 };
