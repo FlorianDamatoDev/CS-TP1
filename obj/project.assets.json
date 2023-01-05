@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/floriandamato/Desktop/cs-project/cs-project.csproj",
+      "projectUniqueName": "/Users/floriandamato/Desktop/C#/cs-tp1/cs-project.csproj",
       "projectName": "cs-project",
-      "projectPath": "/Users/floriandamato/Desktop/cs-project/cs-project.csproj",
+      "projectPath": "/Users/floriandamato/Desktop/C#/cs-tp1/cs-project.csproj",
       "packagesPath": "/Users/floriandamato/.nuget/packages/",
-      "outputPath": "/Users/floriandamato/Desktop/cs-project/obj/",
+      "outputPath": "/Users/floriandamato/Desktop/C#/cs-tp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/floriandamato/.nuget/NuGet/NuGet.Config"
